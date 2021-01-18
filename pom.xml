@@ -9,10 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <modules>
-        <module>add</module>
-        <module>subtract</module>
-        <module>multiply</module>
-        <module>divide</module>
+        <module>maven-add</module>
+        <module>maven-subtract</module>
+        <module>maven-multiply</module>
+        <module>maven-divide</module>
     </modules>
 
     <name>maven-test-pkg</name>
