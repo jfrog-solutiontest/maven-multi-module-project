@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.hemanthsridhar</groupId>
-    <artifactId>mc-sync-bintray</artifactId>
+    <artifactId>maven-test-pkg</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.9</version>
+    <version>1.0.0</version>
     <modules>
         <module>add</module>
         <module>subtract</module>
@@ -15,7 +15,7 @@
         <module>divide</module>
     </modules>
 
-    <name>mc-sync-bintray</name>
+    <name>maven-test-pkg</name>
     <description>A demo for deployment to the JCenter</description>
     <url>http://github.com/hemanthsridhar</url>
     <licenses>
@@ -116,7 +116,7 @@
         <repository>
             <id>bintray-hemanthsridhar-testaut-frameworks</id>
             <name>hemanthsridhar-testaut-frameworks</name>
-            <url>https://${bintrayAPIUrl}/maven/${bintraySubject}/${bintrayRepo}/${bintrayPackage}/;publish=0</url>
+            <url>https://${bintrayAPIUrl}/maven/${bintraySubject}/${bintrayRepo}/${bintrayPackage}/;publish=1</url>
         </repository>
     </distributionManagement>
 
